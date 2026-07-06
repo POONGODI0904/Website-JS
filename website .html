@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Learning Playground</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 id="mainHeading">JavaScript Learning Playground</h1>
+
+        <section>
+            <h2>1. DOM Manipulation</h2>
+            <button onclick="changeHeading()">Change Heading</button>
+        </section>
+
+        <section>
+            <h2>2. User Input & Function</h2>
+
+            <input type="text" id="username" placeholder="Enter Your Name">
+
+            <button onclick="showGreeting()">Show Greeting</button>
+            <p id="greeting"></p>
+        </section>
+
+        <section>
+            <h2>3. Even or Odd Checker</h2>
+            <input type="number" id="numberInput" placeholder="Enter Number">
+            <button onclick="checkNumber()">Check</button>
+            <p id="result"></p>
+        </section>
+
+        <section>
+            <h2>4. Multiplication Table</h2>
+            <input type="number" 
+                   id="tableNumber" 
+                   placeholder="Enter Number">
+            <button onclick="generateTable()">
+                Generate
+            </button>
+            <div id="tableResult"></div>
+        </section>
+
+        <section>
+            <h2>5. JavaScript Object</h2>
+            <button onclick="showStudent()">
+                Show Student Details
+            </button>
+            <p id="studentInfo"></p>
+        </section>
+
+        <section>
+            <h2>6. Javascript Array</h2>
+
+            <button onclick="showFruits()">show Fruits</button>
+            <p id="fruitList"></p>
+        </section>
+
+        <section>
+            <h2>7. Event Example</h2>
+            <button onclick="toggleTheme()">
+                Toggle Dark Mode
+            </button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
